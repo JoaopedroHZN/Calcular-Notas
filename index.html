@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular Notas</title>
+    <link rel="stylesheet" href="/calculadoraNotas/assets/css/style.css">
+    <link rel="icon" href="/calculadoraNotas/notes_8262990.png">
+</head>
+
+<body>
+    <section class="container">
+        <h1>Notas Faculdade</h1>
+        <p class="descricao">
+            A média final é calculada da seguinte forma:
+            <strong>(G1 + (G2 × 2)) ÷ 3</strong>
+        </p>
+        <form class="form-notas">
+            <label for="g1">Nota G1</label>
+            <input type="number" id="g1" placeholder="Digite sua nota da G1">
+
+             <label for="g2">Nota G2</label>
+            <input type="number" id="g2" placeholder="Digite sua nota da G2">
+
+            <button id="botao" type="button">Calcular Media</button>
+        </form>
+
+        <div class="resultado">
+            <p id="media-final"></p>
+        </div>
+    </section>
+    <script src="/calculadoraNotas/assets/js/main.js"></script>
+    <footer>@Joao Pedro Montelo Menezes</footer>
+</body>
+
+</html>
